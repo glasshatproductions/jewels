@@ -4,7 +4,6 @@
   "description": "WebGi + TypeScript example starter project",
   "main": "index.html",
   "scripts": {
-    
     "start": "parcel index.html",
     "build": "parcel build index.html --no-minify --public-url ./",
     "deploy": "gh-pages -d dist"
