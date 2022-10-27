@@ -72130,7 +72130,7 @@ function setupViewer() {
           _a.sent();
           // This must be called once after all plugins are added.
           viewer.renderer.refreshPipeline();
-          return [4 /*yield*/, manager.addFromPath("./assets/Cushion Solitaire scene.glb")
+          return [4 /*yield*/, manager.addFromPath("./assets/Incomparable.glb")
           // Load an environment map if not set in the glb file
           // await viewer.scene.setEnvironment(
           //     await manager.importer!.importSinglePath<ITexture>(
@@ -72182,7 +72182,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64455" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53004" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
